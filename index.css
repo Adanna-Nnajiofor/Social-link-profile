@@ -99,12 +99,8 @@ body {
 }
 
 
-
-
-
-
 /* for mobile view */
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) { */
     .container{
         display: flex;
         justify-content: center;
@@ -113,7 +109,7 @@ body {
     }
 
     .main{
-        margin:20px 60px;
+        margin:20px 40px;
         background-color:hsl(0, 0%, 12%) ;
         padding:20px;
         border-radius: 10px;
@@ -181,4 +177,4 @@ body {
     .box:active h5{
         color:hsl(0, 0%, 8%);
     }
-}
+/* } 
