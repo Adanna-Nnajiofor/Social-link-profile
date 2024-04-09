@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Interf";
+}
+
+
+
+/* for desktop view */
+@media only screen and (min-width: 992px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .main{
+        margin:100px 200px;
+        background-color:hsl(0, 0%, 12%) ;
+        padding:20px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first img{
+        width:30%;
+        border-radius: 50%;
+    }
+
+    .first h2{
+        color:hsl(0, 0%, 100%);
+        padding:20px 0px 10px 0px;
+        text-align: center;
+    }
+
+    .first h4{
+        color:hsl(75, 94%, 57%);
+        padding-bottom:10px ;
+        text-align: center;
+    }
+
+    .first p{
+        color:hsl(0, 0%, 100%);
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box{
+        background-color:hsl(0, 0%, 20%) ;
+        border-radius: 10px;
+        margin:10px 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .box h5{
+        color:hsl(0, 0%, 100%);
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .box:active{
+        background-color: hsl(75, 94%, 57%);
+        cursor: pointer;
+        
+    }
+
+    .box:active h5{
+        color:hsl(0, 0%, 8%);
+    }
+}
+
+
+
+
+
+
+/* for mobile view */
+@media only screen and (max-width: 767px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .main{
+        margin:20px 60px;
+        background-color:hsl(0, 0%, 12%) ;
+        padding:20px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first img{
+        width:30%;
+        border-radius: 50%;
+    }
+
+    .first h2{
+        color:hsl(0, 0%, 100%);
+        padding:20px 0px 10px 0px;
+        text-align: center;
+    }
+
+    .first h4{
+        color:hsl(75, 94%, 57%);
+        padding-bottom:10px ;
+        text-align: center;
+    }
+
+    .first p{
+        color:hsl(0, 0%, 100%);
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box{
+        background-color:hsl(0, 0%, 20%) ;
+        border-radius: 10px;
+        margin:10px 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .box h5{
+        color:hsl(0, 0%, 100%);
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .box:active{
+        background-color: hsl(75, 94%, 57%);
+        cursor: pointer;
+        
+    }
+
+    .box:active h5{
+        color:hsl(0, 0%, 8%);
+    }
+}
